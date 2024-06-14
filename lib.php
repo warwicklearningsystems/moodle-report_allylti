@@ -41,7 +41,7 @@ function report_allylti_extend_navigation_course($navigation, $course, $context)
     }
 }
 
-function report_allylti_before_standard_html_head() {
+function report_allylti_before_standard_head_html_generation() {
     global $PAGE;
     $PAGE->requires->js_call_amd('report_allylti/main', 'init');
 }
